@@ -12,12 +12,13 @@ The random forest is a classification algorithm consisting of many decisions tre
 
 ### Scripts - 
 
-1. jet_regression.ipynb - Utilizes a basic Random Forest Regressor algorithm from sklearn. [RMSE on Test - 49.30]
-2. jet_nn.ipynb - Uses a Keras based Sequential Neural Network [Accuracy - 87.57%]
-3. jet_engine.ipynb - Uses a Random Forrest Classifier [Train Acc. - 99.9% vs Test Acc. - 89.2%] (Prone to Overfitting)
-4. jet_engine_optimized.ipynb - Uses a Randomized Search CV from sklearn for hyperparamter optimization.  [Train Acc. - 89.9% vs Test Acc. - 88.9%] (No longer Prone to Overfitting)
-5. jet_eda.ipynb - Heavy use of Seaborn, Matplotlib to study underlying statistical patterns from the data.
-6. jet_data_preprocessing.ipynb - Compares RMSE across various test sets. 
+1. [jet_regression.ipynb](https://github.com/souvik0306/Jet-Engine-Health-Prediction/blob/main/jet_regression.ipynb) - Utilizes a basic Random Forest Regressor algorithm from sklearn. [RMSE on Test - 49.30]
+2. [jet_nn.ipynb](https://github.com/souvik0306/Jet-Engine-Health-Prediction/blob/main/jet_nn.ipynb) - Uses a Keras based Sequential Neural Network [Accuracy - 87.57%]
+3. [jet_engine.ipynb](https://github.com/souvik0306/Jet-Engine-Health-Prediction/blob/main/jet_engine.ipynb) - Uses a Random Forrest Classifier [Train Acc. - 99.9% vs Test Acc. - 89.2%] (Prone to Overfitting)
+4. [jet_engine_optimized.ipynb](https://github.com/souvik0306/Jet-Engine-Health-Prediction/blob/main/jet_engine_optimized.ipynb) - Uses a Randomized Search CV from sklearn for hyperparamter optimization.  [Train Acc. - 89.9% vs Test Acc. - 88.9%] (No longer Prone to Overfitting)
+5. [jet_eda.ipynb](https://github.com/souvik0306/Jet-Engine-Health-Prediction/blob/main/jet_eda.ipynb) - Heavy use of Seaborn, Matplotlib to study underlying statistical patterns from the data.
+6. [jet_data_preprocessing.ipynb](https://github.com/souvik0306/Jet-Engine-Health-Prediction/blob/main/jet_data_preprocessing.ipynb) - Compares RMSE across various test sets. 
+
 ### Conclusion - 
 • Predicted Remaining Useful Life (RUL) for turbofan jet engines using a Random Forest Classifier Model. 
 
